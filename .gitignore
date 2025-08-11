@@ -1,0 +1,13 @@
+# Ignore CSV & Parquet
+*.csv
+venv/
+
+# Ignore everything in data/
+read_data/data/**
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+.DS_Store
+.vscode/
